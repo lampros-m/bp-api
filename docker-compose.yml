@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+  db:
+    container_name: bestprice-api_db
+    image: mysql:5.7.31
+    ports:
+      - 33066:3306
+    volumes:
+      - "./.mysql-data:/var/lib/mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bestprice
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+  redis:
+    container_name: bestprice-api_redis
+    image: "redis:6-alpine"
+    ports:
+      - 63799:6379
