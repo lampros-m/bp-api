@@ -1,7 +1,7 @@
-# BestPrice - Api
+# Online Store REST-API - Api
 
 ## Overview
-Implements a simple API that a BestPrice mini version can use. 
+A Go implemented API that an online store or eshop could use. 
 
 tl;dr
 
@@ -25,7 +25,7 @@ The containers we've just creted:
 - bestprice-api_db
 - bestprice-api_redis
 
-The first one serves a MySql database called `bestprice` and the second one an empty Redis database cache. 
+The first one serves a MySql database and the second one an empty Redis database cache. 
 
 These 2 containers listen to the ports:
 - 33066
