@@ -1,4 +1,4 @@
-# Online Store REST-API - Api
+# Online Store REST-API
 
 ## Overview
 A Go implemented API that an online store or eshop could use. 
